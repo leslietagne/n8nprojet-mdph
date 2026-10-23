@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const { DateTime } = require('luxon');
-const raw = fs.readFileSync(process.argv[2] || path.join(__dirname, '..', 'Certificat MDPH.workflow.ts'), 'utf8');
+const raw = fs.readFileSync(process.argv[2] || path.join(__dirname, '..', 'MDPH Certificate.workflow.ts'), 'utf8');
 const NOW = DateTime.fromISO('2026-10-22T09:00:00');
 const unTs = s => s.replace(/\\\\/g, '\u0000').replace(/\\n/g, '\n').replace(/\\'/g, "'").replace(/\u0000/g, '\\');
 const between = (s, a, b) => { const i = s.indexOf(a); if (i < 0) throw new Error('missing ' + a); return s.slice(i + a.length, s.indexOf(b, i + a.length)); };

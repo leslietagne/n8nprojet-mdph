@@ -32,7 +32,7 @@ The form, the emails and the PDF stay in French (French doctor, French official 
 
 | Folder | Content |
 |---|---|
-| `workflows/` | `Certificat MDPH.workflow.ts`, the workflow as code (n8n SDK, `n8ncli`), and `tests/`, 39 automated tests |
+| `workflows/` | `MDPH Certificate.workflow.ts`, the workflow as code (n8n SDK, `n8ncli`), and `tests/`, 39 automated tests |
 | `skills/` | The 3 Claude Code skills built for this project (see below) |
 | `video/` | The demo video transcript |
 
@@ -83,7 +83,7 @@ formats, aids not named in the notes, PDF box positions. Expected result: `39/39
 
 ## Setup
 
-1. Import `workflows/Certificat MDPH.workflow.ts` with `n8ncli` (tested with version **1.2.45**), or convert
+1. Import `workflows/MDPH Certificate.workflow.ts` with `n8ncli` (tested with version **1.2.45**), or convert
    it to JSON and use **Import from File** in n8n.
 2. Connect the credentials: OpenAI, Google Sheets, Google Drive, Gmail, PDF.co.
 3. Create a Google Sheet with two tabs:

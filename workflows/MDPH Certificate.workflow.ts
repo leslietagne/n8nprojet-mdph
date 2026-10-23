@@ -103,7 +103,7 @@ const send_Unknown_ID_Email = node({
   config: { name: 'Send Unknown ID Email', parameters: { sendTo: 'ltagne@eugeniaschool.com', subject: 'ID patient inconnu', message: expr('Bonjour Docteur,<br><br>\nL\'identifiant <b>{{ $(\'New Certificate Form\').item.json[\'ID patient\'] }}</b> ne correspond à aucun patient de la base.<br>\nVérifiez-le et renvoyez le formulaire.'), options: { appendAttribution: false } }, credentials: { gmailOAuth2: newCredential('Gmail - Doctor Notifications', 'GKKVyLKLg4Pa35sW') }, position: [1264, 1152], webhookId: '649db3c2-ca55-4a0b-8957-319cf31f6e7d' }
 });
 
-const wf = workflow('hdytFg0Ds6lB5vvz', 'Certificat MDPH', { description: 'Pre-fills the MDPH medical certificate (Cerfa 15695) from consultation notes for the doctor to review, and sends a weekly reminder of certificates to renew.', executionOrder: 'v1', binaryMode: 'separate', availableInMCP: true });
+const wf = workflow('hdytFg0Ds6lB5vvz', 'MDPH Certificate', { description: 'Pre-fills the MDPH medical certificate (Cerfa 15695) from consultation notes for the doctor to review, and sends a weekly reminder of certificates to renew.', executionOrder: 'v1', binaryMode: 'separate', availableInMCP: true });
 
 export default wf
   .add(every_Monday_8am)
