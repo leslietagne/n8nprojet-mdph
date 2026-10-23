@@ -1,0 +1,7 @@
+{
+  "name": "certificat-mdph-n8n",
+  "private": true,
+  "description": "Tests locaux du workflow n8n Certificat MDPH",
+  "scripts": { "test": "node workflows/tests/test-local.js" },
+  "devDependencies": { "luxon": "3.7.2" }
+}
