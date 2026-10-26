@@ -33,7 +33,9 @@ The doctor also receives a weekly reminder, so no certificate expires unnoticed.
 6. **Gmail:** the doctor gets the link and the points to check before signing.
 
 **Every Monday at 8am**, a second branch emails the certificates expiring within 60 days.
-The form, emails and PDF stay in French (French doctor, French official form).
+The form, emails and PDF stay in French (French doctor, French official form). Data field names
+(`pathologie_principale`, Sheet columns…) also stay in French because they mirror the official Cerfa and the
+doctor's spreadsheet.
 
 ## Design choices
 
