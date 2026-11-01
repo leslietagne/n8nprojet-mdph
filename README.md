@@ -8,7 +8,7 @@ M1 Eugenia project. An n8n workflow that pre-fills the French MDPH medical certi
 
 ## Demo video
 
-**Video:** _link to be added_
+**Video:** https://youtu.be/9IoZ-zg9Nv4
 If the link is unavailable or has expired, read the [transcript](video/transcript.md).
 
 ## Time saved
