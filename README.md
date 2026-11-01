@@ -18,7 +18,7 @@ The MDPH certificate is 8 pages long. The workflow fills **59 form fields and 31
 
 | | By hand | With the workflow |
 |---|---|---|
-| Doctor's time | _to be added_ | Type the notes + review the pre-filled PDF |
+| Doctor's time | About 45 minutes, during the consultation | Type the notes + review the pre-filled PDF |
 | Processing | – | Under a minute per certificate (about 40 s on real runs) |
 
 The doctor also receives a weekly reminder, so no certificate expires unnoticed.
